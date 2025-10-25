@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* { box-sizing: border-box; margin:0; padding:0; }
+html,body,#root { height: 100%; }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height: 1.45;
+  font-size: 16px;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+/* Utility */
+.center { display:flex; align-items:center; justify-content:center; }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .container { padding: 16px; }
+}
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+  .section { padding: 36px 0; }
+}

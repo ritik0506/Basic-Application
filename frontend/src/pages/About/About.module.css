@@ -1,0 +1,13 @@
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  max-width:900px;
+  margin: 0 auto;
+  color: var(--muted);
+}
+.card h2 { color: var(--primary-color); margin-bottom:10px; }
+.card p { font-size:16px; line-height:1.6; }
+.card ul { margin-top:12px; padding-left:20px; }
+.card ul li { margin-bottom:8px; }

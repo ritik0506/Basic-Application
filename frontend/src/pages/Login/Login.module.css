@@ -1,0 +1,14 @@
+.card {
+  max-width:420px;
+  margin: 0 auto;
+  background:white;
+  padding:22px;
+  border-radius:12px;
+  box-shadow: var(--shadow);
+  text-align:center;
+}
+.form { display:flex; flex-direction:column; gap:12px; margin-top:10px; }
+.form input { padding:10px 12px; border-radius:10px; border:1px solid #e6e9ef; }
+.btn { background: var(--primary-color); color:white; padding:10px; border-radius:10px; border:none; cursor:pointer; }
+.small { margin-top:10px; color:var(--muted); font-size:14px; }
+.link { color: var(--primary-color); text-decoration:none; }

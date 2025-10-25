@@ -1,0 +1,96 @@
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #003366;
+}
+
+/* Carousel */
+.carousel .slick-slide {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.cardWrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.cardWrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Steps Section */
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.step {
+  background-color: #f5f9ff;
+  padding: 25px;
+  border-radius: 20px;
+  width: 250px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.step h4 {
+  color: #4a90e2;
+  margin-bottom: 12px;
+}
+
+.step p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* View All Button */
+.viewAllBtn {
+  padding: 12px 25px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.viewAllBtn:hover {
+  background-color: #003366;
+  transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .carousel .slick-slide {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step {
+    width: 90%;
+  }
+}
